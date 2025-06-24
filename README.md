@@ -6,10 +6,13 @@ This is an Automator file for MacOS that adds a Quick Action to your finder righ
 
 ## Installation
 
-1. **Install the Quick Action**: 
-   - Download the workflow file from the Github Repository. 
-- Double-click the workflow file to install it automatically 
-    - If that doesn't work, move the `Send to DocumentCloud.workflow` folder to `~/Library/Services/`
+1. **Download the workflow**: 
+    - Download the repository as a ZIP file: [Download ZIP](https://github.com/nielsenau/finder-documentcloud/archive/refs/heads/main.zip)
+    - Unzip the downloaded file
+    
+2. **Install the Quick Action**: 
+    - Double-click the `Send to DocumentCloud.workflow` folder - macOS will recognize it as executable and install it automatically
+    - If that doesn't work, manually move the `Send to DocumentCloud.workflow` folder to `~/Library/Services/`
 
 2. **Set up credentials**:
    - The workflow will prompt you to enter your DocumentCloud/MuckRock credentials on first use
